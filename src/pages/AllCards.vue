@@ -76,7 +76,6 @@ import NewCard from "./NewCard.vue";
 import ModalWindowVue from "../components/ModalWindow.vue";
 
 export default {
-  name: "FormApp",
   components: { NewCard, ModalWindowVue },
   setup() {
     const store = useTodoStore();

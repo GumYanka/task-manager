@@ -87,7 +87,6 @@ export default {
     watch(
       () => id.value,
       (newId) => {
-        console.log("Fetching details for ID:", newId);
         fetchTaskDetails(newId);
       },
       { immediate: true }
